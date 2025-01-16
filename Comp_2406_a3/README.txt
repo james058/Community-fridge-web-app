@@ -1,7 +1,5 @@
 Name : James Ebbah-Idala
 
-Student number: 101197289
-
 Files:
     server.js: Main server for the app
     fridges-router.js: Contains the instructions to handle routing and requests
