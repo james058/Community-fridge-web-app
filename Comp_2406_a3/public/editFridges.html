@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/css/comm-fridge.css" />
+    <title>Edit a fridge</title>
+</head>
+
+<body id="edit_a_fridge">
+    <menu>
+        <a href="http://localhost:8000/index.html"><i class="fas fa-bars"></i></a>
+    </menu>
+    <div id="respArea" class="hidden">Message</div>
+    <h1 id="frigeHeading ">Edit a fridge</h1>
+    <form id="form_add">
+        <label for="fridgeName">Fridge Name</label>
+        <input type="text" id="fridgeName" /><br><br>
+        <label for="numItemsAccepted">Number of acceptable items</label>
+        <input type="text" id="numItemsAccepted" /><br><br>
+        <label for="acceptedTypes">Accepted types</label>
+        <select name="acceptedTypes" id="acceptedTypes" multiple>
+          </select>
+        <br><br>
+        <label for="contactPerson">Contact person</label>
+        <input type="text" id="contactPerson" /><br><br>
+        <label for="contactPhone">Contact phone</label>
+        <input type="text" id="contactPhone" /><br><br>
+        <label for="streetName">Street name</label>
+        <input type="text" id="streetName" /><br><br>
+        <label for="postalCode">Postal code</label>
+        <input type="text" id="postalCode" /><br><br>
+        <label for="city">City</label>
+        <input type="text" id="city" /><br><br>
+        <label for="province">Province</label>
+        <input type="text" id="province" /><br><br>
+
+        <button type="button" id="submit_btn" disabled="true">Edit fridge</button>
+        <script src="/js/comm-fridge.js"></script>
+    </form>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/js/comm-fridge.js"></script>
+</body>
+
+</html>
